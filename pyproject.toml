@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "n-shot-learning"
+version = "0.1.0"
+description = "Solving traditional statistical learning tasks, such as email classification with LLMs using N-shot learning where N = 0,1,2,3..."
+authors = ["Sam Longenbach <samuel.longenbach@storebrand.no>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+azure-identity = "^1.19.0"
+openai = "^1.54.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
