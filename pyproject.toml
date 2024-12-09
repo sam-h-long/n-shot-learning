@@ -11,6 +11,13 @@ python = "^3.12"
 python-dotenv = "^1.0.1"
 azure-identity = "^1.19.0"
 openai = "^1.54.3"
+pandas = "^2.2.3"
+tiktoken = "^0.8.0"
+prompty = "^0.1.39"
+rich = "^13.9.4"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.0"
+streamlit = "^1.40.2"
 
 
 [build-system]
